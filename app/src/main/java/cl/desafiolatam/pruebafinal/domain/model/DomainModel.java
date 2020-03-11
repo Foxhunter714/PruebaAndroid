@@ -16,6 +16,15 @@ public class DomainModel {
 
     private String fecha;
 
+    public DomainModel(String nombre, int type, String descripcion, String videoUrl, String imageUrl, String fecha) {
+        this.nombre = nombre;
+        this.type = type;
+        this.descripcion = descripcion;
+        this.videoUrl = videoUrl;
+        this.imageUrl = imageUrl;
+        this.fecha = fecha;
+    }
+
     @Override
     public String toString() {
         return "DomainModel{" +
